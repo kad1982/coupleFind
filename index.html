@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Найди пару</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+
+
+</head>
+
+<body>
+	<div class="content">
+		<div class="setting">
+			<div class="settings">
+				<label for="countVertical">Кол-во карточек по вертикали</label>
+				<input type="number" name="countVertical" id="countVertical" placeholder="Кол-во" min="2" max="10">
+				<label for="countHorizont">Кол-во карточек по горизонтали</label>
+				<input type="number" name="countHorizont" id="countHorizont" placeholder="Кол-во" min="2" max="10">
+				<button type="button" id="btn__start">Начать игру</button>
+			</div>
+		</div>
+		<div class="container">
+		</div>
+		<div id="div__btn--reset">
+			<button type="button" id="btn__reset">Сыграть ещё раз</button>
+		</div>
+
+		<script defer src="js/main.js"></script>
+	</div>
+</body>
+
+</html>

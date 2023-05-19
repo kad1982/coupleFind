@@ -1,0 +1,70 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	box-sizing: inherit;
+}
+
+img {
+	max-width: 100%;
+}
+
+body {
+	height: 10vh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 20px;
+}
+
+.container {
+	width: 640px;
+	/* height: 640px; */
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.card {
+	position: relative;
+	/* width: calc(25% - 5px);
+	height: calc(25% - 5px); */
+	margin-bottom: 5px;
+	margin-right: 5px;
+
+}
+
+/* .card:not(:nth-child(4n)) {
+	margin-right: 5px;
+} */
+
+.top,
+.bottom {
+	position: absolute;
+	display: block;
+
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	transition: z-index 0.3s ease-in-out;
+}
+
+/* .top {
+	z-index: 2;
+}
+
+.bottom {
+	z-index: 0;
+} */
+
+#div__btn--reset{
+	visibility: hidden;
+	text-align: center;
+	padding: 20px;
+}
